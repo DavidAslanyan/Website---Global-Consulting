@@ -1,0 +1,18 @@
+@import 'mixins';
+@import 'variables';
+
+body {
+    background-color: pink;
+}
+
+.topics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#text {
+    @include flexbox;
+    color: white;
+}
